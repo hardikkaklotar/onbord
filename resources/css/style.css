@@ -1,0 +1,43 @@
+
+.active{
+   display: block ;
+}
+.sidebar{
+    min-width: 320px;
+}
+.aside{
+    transition: all 0.5s;
+    left: 0px;
+}
+.model{
+    background-color: rgba(0, 0, 0, 0.74);
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .aside{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1280px) {
+    main{
+        height: calc(100vh - 92px);
+    }
+}
+@media screen and (min-width: 1536px) {
+    .responsive{
+        display: block !important;
+    }
+}
+textarea{
+    max-height: 200px;
+}
+aside a:hover svg path{
+    fill: #000;
+    transition: all 0.3s;
+}
+.logout-btn:hover svg path{
+    fill: none;
+}
+.overflow{
+    min-width: 500px;
+}
