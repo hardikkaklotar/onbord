@@ -22,8 +22,14 @@
 
     </head>
     <body>
-        <div class="font-sans text-gray-900 antialiased">
-            {{ $slot }}
+        <div class="font-sans text-gray-900 w-full flex h-screen">
+            @include('partials.sidebar')
+            <div class="w-full h-full px-32 py-12">
+
+                {{ $slot }}
+
+
+            </div>
         </div>
     </body>
 </html>

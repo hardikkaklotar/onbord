@@ -13,11 +13,11 @@ module.exports = {
     theme: {
         colors: {
             transparent: 'transparent',
-            primary: '#600039',
-            secondary: '#d0bbc7',
-            pink: '#955b7e',
+            primary: '#01B88C',
+            secondary: '#E8E8E8',
             white: '#fff',
             black: '#000',
+            grey: '#666666',
         },
         extend: {
             fontFamily: {

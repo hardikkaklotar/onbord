@@ -32,11 +32,11 @@ Route::middleware([
         return view('dashboard/home');
     })->name('home');
 
-    Route::get('dashboard/Employee', function (){
-        return view('dashboard/Employee');
-    })->name('Employee');
+    Route::get('auth/register', function (){
+        return view('auth/register');
+    })->name('register');
+    Route::get('auth/login', function (){
+        return view('auth/login');
+    })->name('login');
 
-    Route::get('dashboard/profile', function (){
-        return view('dashboard/profile');
-    })->name('profile');
 });
